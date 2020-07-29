@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import './styles.css';
 
@@ -9,11 +10,11 @@ import Button from '../Button'
 const Menu = () => {
     return(
         <nav className="menu-container">
-            <a href="/">
+            <Link to="/">
                 <img src={logo} className="logo" alt="Logo da Geoflix"  />
-            </a>
+            </Link>
 
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as={Link} className="ButtonLink" to="/register/video">
                 Novo vídeo
             </Button>
         </nav>

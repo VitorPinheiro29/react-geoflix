@@ -36,11 +36,12 @@ export const ExtraLink = styled.a`
 export const VideoCardList = styled.ul`
   margin: 0;
   padding-left: 0;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
   list-style: none;
   display: flex;
   overflow-x: auto;
   flex-direction: row;
+  overflow-x: hidden;
   
   li {
     margin-right: 16px;
@@ -52,4 +53,5 @@ export const VideoCardGroupContainer = styled.section`
   min-height: 197px;
   margin-left: 5%;
   margin-bottom: 16px;
+
 `;
