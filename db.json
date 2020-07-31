@@ -1,0 +1,16 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Geopolítica",
+      "description": "Entenda os conflitos mundiais",
+      "color": "#CBD1FF"
+    },
+    {
+      "id": 2,
+      "name": "Geografia Urbana",
+      "description": "Entenda os conflitos mundiais",
+      "color": "#CBD1FF"
+    }
+  ]
+}
