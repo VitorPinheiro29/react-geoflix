@@ -43,7 +43,7 @@ const RegisterCategory = () => {
   }
 
   useEffect(() => {
-    const URL = "http://localhost:8080/category";
+    const URL = "https://geoflix2.herokuapp.com/category";
 
     fetch(URL).then(async (serverAnswer) => {
       const answer = await serverAnswer.json();
